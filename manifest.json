@@ -1,0 +1,13 @@
+{
+  "name": "ESV Selection Search",
+  "description": "Looks up selected text in ESV bible.",
+  "version": "1.0",
+  "permissions": [
+        "contextMenus",
+        "tabs"
+  ],
+  "background": {
+    "scripts": ["search.js"]
+  },
+  "manifest_version": 2
+}
